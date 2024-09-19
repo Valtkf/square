@@ -32,9 +32,7 @@ export function CustomNavbar() {
                       key={item.title}
                       title={item.title}
                       href={item.href}
-                    >
-                      {item.description}
-                    </ListItem>
+                    ></ListItem>
                   ))}
                 </ul>
               </NavigationMenuContent>
@@ -48,9 +46,7 @@ export function CustomNavbar() {
                       key={item.title}
                       title={item.title}
                       href={item.href}
-                    >
-                      {item.description}
-                    </ListItem>
+                    ></ListItem>
                   ))}
                 </ul>
               </NavigationMenuContent>
@@ -64,9 +60,7 @@ export function CustomNavbar() {
                       key={item.title}
                       title={item.title}
                       href={item.href}
-                    >
-                      {item.description}
-                    </ListItem>
+                    ></ListItem>
                   ))}
                 </ul>
               </NavigationMenuContent>
