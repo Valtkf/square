@@ -1,5 +1,4 @@
 import React from "react";
-import { MarqueeDemo } from "./HeroAnimation";
 
 export default function HeroSection() {
   return (
@@ -13,7 +12,6 @@ export default function HeroSection() {
         platform that helps creators like you sell their digital products
         online.
       </div>
-      <MarqueeDemo />
     </div>
   );
 }

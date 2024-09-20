@@ -21,14 +21,7 @@ const reviews = [
 
 const firstRow = reviews.slice(reviews.length / 5);
 
-const ReviewCard = ({
-  img,
-}: {
-  img: string;
-  name: string;
-  username: string;
-  body: string;
-}) => {
+const ReviewCard = ({ img }: { img: string }) => {
   return (
     <figure
       className={cn(
