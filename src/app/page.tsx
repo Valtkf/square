@@ -2,7 +2,8 @@ import CarousselSection from "@/components/caroussel/CarousselSection";
 import ChartsSection from "@/components/charts/ChartsSection";
 import HeroSection from "@/components/hero-section/HeroSection";
 import CustomNavbar from "@/components/navbar/Navbar";
-import Charts from "@/components/ui/icons/Charts";
+import Productivity from "@/components/productivity/Productivity";
+import TechnicalStack from "@/components/technical-stack/TechnicalStack";
 
 export default function Home() {
   return (
@@ -19,10 +20,9 @@ export default function Home() {
           <CarousselSection />
         </div>
       </main>
-      <div className="">
-        <ChartsSection />
-      </div>
-
+      <ChartsSection />
+      <Productivity />
+      <TechnicalStack />
       <footer className=""></footer>
     </div>
   );
