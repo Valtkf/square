@@ -1,6 +1,8 @@
-import CarousselSection from "@/components/Caroussel/CarousselSection";
+import CarousselSection from "@/components/caroussel/CarousselSection";
+import ChartsSection from "@/components/charts/ChartsSection";
 import HeroSection from "@/components/hero-section/HeroSection";
 import CustomNavbar from "@/components/navbar/Navbar";
+import Charts from "@/components/ui/icons/Charts";
 
 export default function Home() {
   return (
@@ -17,11 +19,8 @@ export default function Home() {
           <CarousselSection />
         </div>
       </main>
-
-      <div className="mt-auto">
-        <h1 className="font-bold text-5xl text-center">
-          Turn your growth into Squaree
-        </h1>
+      <div className="">
+        <ChartsSection />
       </div>
 
       <footer className=""></footer>
