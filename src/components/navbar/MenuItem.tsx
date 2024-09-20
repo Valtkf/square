@@ -10,7 +10,6 @@ interface MenuItemProps {
   items: {
     title: string;
     href: string;
-    description: string;
   }[];
 }
 
@@ -20,9 +19,11 @@ const MenuItem: React.FC<MenuItemProps> = ({ title, items }) => (
     <NavigationMenuContent>
       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
         {items.map((item) => (
-          <ListItem key={item.title} title={item.title} href={item.href}>
-            {item.description}
-          </ListItem>
+          <ListItem
+            key={item.title}
+            title={item.title}
+            href={item.href}
+          ></ListItem>
         ))}
       </ul>
     </NavigationMenuContent>

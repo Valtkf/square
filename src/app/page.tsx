@@ -1,21 +1,29 @@
+import CarousselSection from "@/components/caroussel/CarousselSection";
+import ChartsSection from "@/components/charts/ChartsSection";
+import HeroSection from "@/components/hero-section/HeroSection";
 import CustomNavbar from "@/components/navbar/Navbar";
-import { Button } from "@/components/ui/button";
+import Charts from "@/components/ui/icons/Charts";
 
 export default function Home() {
   return (
-    <div className="items-center justify-center min-h-screen p-8 pb-20 ">
-      <main className="">
-        <div>
-          <div className="flex justify-center items-center">
-            <CustomNavbar />
-          </div>
-          <h1>Hello</h1>
-          <div>
-            <Button>Click me</Button>
-          </div>
+    <div className="flex flex-col min-h-screen p-8 pb-20">
+      <header>
+        <div className="flex justify-center items-center">
+          <CustomNavbar />
+        </div>
+      </header>
+
+      <main className="flex-grow">
+        <div className="flex flex-col justify-center items-center">
+          <HeroSection />
+          <CarousselSection />
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
+      <div className="">
+        <ChartsSection />
+      </div>
+
+      <footer className=""></footer>
     </div>
   );
 }
