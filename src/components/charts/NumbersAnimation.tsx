@@ -1,4 +1,4 @@
-import NumberTicker from "../magicui/number-ticker";
+import NumberTicker from "../ui/magicui/number-ticker";
 
 const NumberTickerDemo = () => {
   return (
