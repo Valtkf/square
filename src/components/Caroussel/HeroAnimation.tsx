@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import Marquee from "@/components/magicui/marquee";
+import Marquee from "@/components/ui/magicui/marquee";
 
 const reviews = [
   {
@@ -26,8 +26,7 @@ const ReviewCard = ({ img }: { img: string }) => {
     <figure
       className={cn(
         "relative w-64 cursor-pointer overflow-hidden rounded-xl",
-        // light styles
-        " bg-gray-950/[.01] ",
+
         // dark styles
         " dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
       )}

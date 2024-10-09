@@ -18,7 +18,7 @@ import { company, features, resources } from "@/lib/data-navbar";
 
 export function CustomNavbar() {
   return (
-    <div className="w-full border border-[#D8D8D8] rounded-3xl p-4 mr-24 ml-24">
+    <div className="flex justify-center items-center w-full border border-[#D8D8D8] rounded-3xl p-4">
       <NavigationMenu className="ml-3 lg:gap-x-32 flex items-center justify-between">
         <div className="flex lg:space-x-20 items-center">
           <SquareeIcon />
@@ -26,7 +26,7 @@ export function CustomNavbar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Features</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[600px]">
                   {features.map((item) => (
                     <ListItem
                       key={item.title}
@@ -40,7 +40,7 @@ export function CustomNavbar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[600px]">
                   {resources.map((item) => (
                     <ListItem
                       key={item.title}
@@ -54,7 +54,7 @@ export function CustomNavbar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Company</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[600px]">
                   {company.map((item) => (
                     <ListItem
                       key={item.title}
