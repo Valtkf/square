@@ -2,12 +2,12 @@ import React from "react";
 import NumberTickerDemo from "./NumbersAnimation";
 import Charts from "../ui/icons/Charts";
 import ButtonExploreWay from "./ButtonExploreWay";
-import AnimationRevealSection from "../ui/animations/AnimationRevealSection";
+import FadeInAnimation from "../ui/animations/FadeInAnimation";
 
 export default function ChartsSection() {
   return (
     <div>
-      <AnimationRevealSection>
+      <FadeInAnimation>
         <h1 className="mt-32 font-bold text-5xl text-center">
           Turn your growth into Squaree
         </h1>
@@ -29,7 +29,7 @@ export default function ChartsSection() {
           </div>
         </div>
         <ButtonExploreWay />
-      </AnimationRevealSection>
+      </FadeInAnimation>
     </div>
   );
 }

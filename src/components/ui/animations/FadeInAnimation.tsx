@@ -5,7 +5,7 @@ interface AnimatedRevealProps {
   children: ReactNode;
 }
 
-const AnimationRevealSection = ({ children }: AnimatedRevealProps) => (
+const FadeInAnimation = ({ children }: AnimatedRevealProps) => (
   <motion.div
     initial={{ opacity: 0, y: 50 }} // Initial state (élément invisible et décalé vers le bas)
     whileInView={{ opacity: 1, y: 0 }} // Quand l'élément est visible (scroll), il devient opaque et se place à sa position originale
@@ -16,4 +16,4 @@ const AnimationRevealSection = ({ children }: AnimatedRevealProps) => (
   </motion.div>
 );
 
-export default AnimationRevealSection;
+export default FadeInAnimation;
