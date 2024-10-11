@@ -2,7 +2,7 @@
 
 import BilledSection from "@/components/billed/BilledSection";
 import Card from "@/components/card/Card";
-import CarousselSection from "@/components/caroussel/CarousselSection";
+import CarousselSection from "../components/caroussel/CarousselSection";
 import ChartsSection from "@/components/charts/ChartsSection";
 import FooterSection from "@/components/footer/FooterSection";
 import HeroSection from "@/components/hero-section/HeroSection";
