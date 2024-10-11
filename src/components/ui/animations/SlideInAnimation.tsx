@@ -16,7 +16,7 @@ const SlideInAnimation = ({
     <motion.div
       initial={{ opacity: 0, x: xOffset }} // Apply the offset for horizontal movement
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: false }}
     >
       {children}
